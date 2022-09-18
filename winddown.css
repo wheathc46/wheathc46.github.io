@@ -1,0 +1,370 @@
+<style>
+main{
+    background-color: #F1F1F1;
+}
+a{
+    text-decoration: none;
+}
+#navwhole{
+    display: grid;
+    grid-template-columns: 1.8fr 1fr 1.8fr;
+    background-color: #F1F1F1;
+}
+#leftnav{
+margin-top:1%;
+}
+.navtitle{
+   font-family: 'Circular Std';
+font-style: normal;
+font-weight: 900;
+font-size: 1.85vw;
+line-height: 2.31vw;
+color: #1A1A1A;
+margin-left: 2.3%;
+margin-top:1.4%;
+
+}
+#navmiddle{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+margin-top:5%;
+}
+
+.navunits{
+    font-family: 'roboto-mono', monospace;
+
+font-weight: 400;
+
+font-style: normal;
+font-size: 1.38vw;
+line-height: 1.85vw;
+/* identical to box height */
+text-align: center;
+color: #1A1A1A;
+    margin-left:0.6%;
+    margin-right:0.6%;
+    margin-top:1.4%;
+}
+#navright{
+    display: grid;
+    grid-template-columns: 96% auto;
+    margin-left:0.6%;
+    justify-content:end;
+    margin-right:2.3%;
+    margin-top:3%;
+}
+#navunits2{
+    font-family: 'roboto-mono', monospace;
+
+font-weight: 400;
+
+font-style: normal;
+font-size: 1.38vw;
+line-height: 1.85vw;
+/* identical to box height */
+text-align: right;
+color: #1A1A1A;
+margin-top:0%;
+margin-right:1%;
+}
+#navarrowbox{
+    margin-left:0.2%;
+    margin-top:4%;
+    padding-left:2%;
+    padding-top: 0%;
+    
+}
+.navarrow2{
+    margin-bottom:auto;
+    width:100%;
+    margin-top:5%;
+    
+}
+.underline{
+    text-decoration: underline;
+}
+    @media (max-width: 600px){
+        #navwhole{
+            display: inline;
+        }
+        #navmiddle{
+            display: inline;
+        }
+        #leftnav{
+            margin: auto;
+            text-align: center;
+        }
+        #navright{
+            margin:auto;
+            justify-content:center;
+            text-align: center;
+        }
+    }
+
+/*end nav */
+
+    #maincontainer{
+
+    }
+    .tagreg{
+        font-family: 'roboto-mono', monospace;
+font-weight: 400;
+font-style: normal;
+font-size: 1.85vw;
+line-height: 2.4vw;
+    }
+    .boldp{
+        font-family: 'Helvetica Neue';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.85vw;
+        line-height: 2.3vw;
+        color: #1A1A1A;
+    }
+    .regp{
+        margin-top:0px;
+        font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.38vw;
+    line-height: 1.8vw;
+    color: #1A1A1A;
+    }
+    .black{
+        color:#1A1A1A;
+    }
+    .white{
+        color:#F1F1F1;
+    }
+    .grey{
+        color: #878787;
+    }
+    .boldquote{
+        font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3vw;
+    }
+    .notopmargin{
+        margin-top:0px;
+    }
+    .underline{
+        text-decoration: underline;
+    }
+    .h1{
+        font-family: 'Circular Std';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 8vw;
+        line-height: 9.5vw;
+        /* identical to box height */
+        text-transform: uppercase;
+        color: #1A1A1A;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+
+
+    #sourcererhome{
+        padding-left:20%;
+        padding-right:20%;
+        padding-top:7%;
+        margin-bottom:8%;
+    }
+    #sourcerhomegrid{
+        padding-right:20%;
+    }
+    #herophoto{
+        padding-left:11%;
+        padding-right:11%;
+        margin-bottom:9.5%;
+    }
+    .herophoto{
+        width:100%;
+    }
+    #theproblem{
+        padding-left:11%;
+        padding-right:11%;
+        margin-bottom:9.5%;
+        padding-right: 20%;
+    }
+    #theproblemleft{
+        padding-right:10%;
+    }
+    .theproblemphoto{
+        padding-top: 10%;
+        width:100%
+    }
+
+    #challengeopportunity{
+        padding-left:4.5%;
+        padding-right:4.5%;
+        padding-top:2%;
+        padding-bottom:2%;
+        margin-left:11%;
+        margin-right:11%;
+        margin-bottom:9.5%;
+        background-color:#e6e6e6;
+    }
+
+    #productmain{
+        background-color: #1A1A1A;
+    }
+    #productoverview{
+        padding-left:11%;
+        padding-right:11%;
+        padding-bottom:12%;
+        padding-top:9%;
+        display:grid;
+        grid-template-columns: 27% auto;
+    }
+    .productoverviewphoto{
+        width:100%;
+        margin-top: 15%;
+        margin-bottom:auto;
+    }
+    #productoverviewright{
+        padding-left:7%;
+        margin-top:auto;
+        margin-bottom:auto;
+    }
+    .boldquote2{
+            font-family: 'Helvetica Neue';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2.8vw;
+    }
+
+    #phases{
+        padding-left:15%;
+        padding-right:15%;
+        margin-bottom:15%;
+        padding-top:10%;
+    }
+    .center{
+        text-align: center;
+    }
+    .smallbottommargin{
+        margin-bottom:2%;
+    }
+    .phasesimg{
+        width:100%;
+        margin-top:2%;
+    }
+    .phasesimg2{
+        width:100%;
+        margin-top:2%;
+        margin-bottom:5%;
+    }
+
+    #sleephome{
+        padding-left:15%;
+        padding-right:15%;
+        margin-bottom:15%;
+    }
+
+    #healthyroutine{
+        padding-left:15%;
+        padding-right:15%;
+        padding-bottom:15%;
+    }
+
+    #productdisplay{
+        background-color: #ffffff;
+    }
+
+    #reflecting{
+        padding-left:15%;
+        padding-right:15%;
+        padding-bottom:15%;
+    }
+
+    .small{
+        margin-top:3%;
+        font-size: 1.1vw;
+    }
+
+    #casestudy{
+        background-color: #1A1A1A;
+    }
+
+    #casestudyintro{
+        padding-left:11%;
+        padding-right:20%;
+        margin-bottom:15%;
+        padding-top:10%;
+    }
+
+    #restinhibitors{
+        padding-left:11%;
+        padding-right:20%;
+        margin-bottom:15%;
+    }
+
+    #surveys{
+        padding-left:11%;
+        padding-right:11%;
+        margin-bottom:15%;
+        display:grid;
+        grid-template-columns: 40% auto;
+    }
+    #surveysright{
+        padding-left:5%;
+    }
+    #surveysleft{
+        margin-top:auto;
+        margin-bottom:auto;
+    }
+
+
+    #sleeptalking{
+        padding-left:11%;
+        padding-right:20%;
+        margin-bottom:15%;
+    }
+
+    #goals{
+        padding-left:11%;
+        padding-right:11%;
+        margin-bottom:15%;
+    }
+
+    #improving{
+        padding-left:11%;
+        padding-right:20%;
+        margin-bottom:15%;
+    }
+
+    #testing{
+        padding-left:11%;
+        padding-right:20%;
+        margin-bottom:15%;
+    }
+
+    #finalthoughts{
+        padding-left:11%;
+        padding-right:20%;
+        padding-bottom:5%;
+    }
+
+    #bottombar{
+    
+        display:grid;
+        grid-template-columns: 70% auto;
+        background-color: #1A1A1A;
+    }
+    #bottomlinks{
+        display:grid;
+        grid-template-columns: auto auto auto;
+    }
+    .bottomheathtext{
+        font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.85vw;
+    line-height: 2.31vw;
+    margin-left:2.3%;
+    }
+
+

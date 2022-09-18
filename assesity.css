@@ -1,0 +1,408 @@
+<style>
+main{
+    background-color: #F1F1F1;
+}
+a{
+    text-decoration: none;
+}
+#navwhole{
+    display: grid;
+    grid-template-columns: 1.8fr 1fr 1.8fr;
+    background-color: #F1F1F1;
+}
+#leftnav{
+margin-top:1%;
+}
+.navtitle{
+   font-family: 'Circular Std';
+font-style: normal;
+font-weight: 900;
+font-size: 1.85vw;
+line-height: 2.31vw;
+color: #1A1A1A;
+margin-left: 2.3%;
+margin-top:1.4%;
+
+}
+#navmiddle{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+margin-top:5%;
+}
+
+.navunits{
+    font-family: 'roboto-mono', monospace;
+
+font-weight: 400;
+
+font-style: normal;
+font-size: 1.38vw;
+line-height: 1.85vw;
+/* identical to box height */
+text-align: center;
+color: #1A1A1A;
+    margin-left:0.6%;
+    margin-right:0.6%;
+    margin-top:1.4%;
+}
+#navright{
+    display: grid;
+    grid-template-columns: 96% auto;
+    margin-left:0.6%;
+    justify-content:end;
+    margin-right:2.3%;
+    margin-top:3%;
+}
+#navunits2{
+    font-family: 'roboto-mono', monospace;
+
+font-weight: 400;
+
+font-style: normal;
+font-size: 1.38vw;
+line-height: 1.85vw;
+/* identical to box height */
+text-align: right;
+color: #1A1A1A;
+margin-top:0%;
+margin-right:1%;
+}
+#navarrowbox{
+    margin-left:0.2%;
+    margin-top:4%;
+    padding-left:2%;
+    padding-top: 0%;
+    
+}
+.navarrow2{
+    margin-bottom:auto;
+    width:100%;
+    margin-top:5%;
+    
+}
+.underline{
+    text-decoration: underline;
+}
+    @media (max-width: 600px){
+        #navwhole{
+            display: inline;
+        }
+        #navmiddle{
+            display: inline;
+        }
+        #leftnav{
+            margin: auto;
+            text-align: center;
+        }
+        #navright{
+            margin:auto;
+            justify-content:center;
+            text-align: center;
+        }
+    }
+
+/*end nav */
+
+    #maincontainer{
+
+    }
+    .tagreg{
+        font-family: 'roboto-mono', monospace;
+font-weight: 400;
+font-style: normal;
+font-size: 1.85vw;
+line-height: 2.4vw;
+    }
+    .boldp{
+        font-family: 'Helvetica Neue';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.85vw;
+        line-height: 2.3vw;
+        color: #1A1A1A;
+    }
+    .regp{
+        margin-top:0px;
+        font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.38vw;
+    line-height: 1.8vw;
+    color: #1A1A1A;
+    }
+    .black{
+        color:#1A1A1A;
+    }
+    .white{
+        color:#F1F1F1;
+    }
+    .grey{
+        color: #878787;
+    }
+    .boldquote{
+        font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3vw;
+    }
+    .notopmargin{
+        margin-top:0px;
+    }
+    .underline{
+        text-decoration: underline;
+    }
+    .h1{
+        font-family: 'Circular Std';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 8vw;
+        line-height: 9.5vw;
+        /* identical to box height */
+        text-transform: uppercase;
+        color: #1A1A1A;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+
+    #sourcererhome{
+        padding-left:20%;
+        padding-right:20%;
+        padding-top:7%;
+        margin-bottom:8%;
+    }
+    #sourcerhomegrid{
+        padding-right: 20%;
+    }
+    #herophoto{
+        padding-left:11%;
+        padding-right:11%;
+        margin-bottom:9.5%;
+    }
+    .herophoto{
+        width:100%;
+    }
+    #theproblem{
+        padding-left:11%;
+        padding-right:11%;
+        margin-bottom:9.5%;
+        display:grid;
+        grid-template-columns: 70% auto;
+    }
+    #theproblemleft{
+        padding-right:10%;
+        margin-top:auto;
+        margin-bottom: auto;
+    }
+    .theproblemphoto{
+        padding-top: 10%;
+        width:100%;
+    }
+
+    #challengeopportunity{
+        padding-left:4.5%;
+        padding-right:4.5%;
+        padding-top:2%;
+        padding-bottom:3%;
+        margin-left:11%;
+        margin-right:11%;
+        margin-bottom:9.5%;
+        background-color:#e6e6e6;
+    }
+
+    #productmain{
+        background-color: #000000;
+    }
+    #productoverview{
+        padding-left:11%;
+        padding-right:11%;
+        margin-bottom:15%;
+        padding-top:9%;
+        display:grid;
+        grid-template-columns: 20% auto;
+    }
+    .productoverviewphoto{
+        width:100%;
+        margin-top: 0%;
+        margin-bottom:auto;
+    }
+    #productoverviewright{
+        padding-left:7%;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .boldquote2{
+            font-family: 'Helvetica Neue';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2.8vw;
+    }
+
+    #cheatsheet{
+        padding-left:11%;
+        padding-right:11%;
+        margin-bottom:15%;
+        display: grid;
+        grid-template-columns: 40% auto;
+    }
+    .center{
+        text-align: center;
+    }
+    .smallbottommargin{
+        margin-bottom:2%;
+    }
+    .cheatsheetimg{
+        width:80%;
+        margin-top:2%;
+        padding-left:10%;
+        padding-right:10%;
+    }
+    .cheatsheetimg2{
+        width:100%;
+        margin-top:2%;
+    }
+    .middle{
+        margin-top:auto;
+        margin-bottom:auto;
+    }
+
+    #yourportfolio{
+        padding-left:11%;
+        padding-right:11%;
+        margin-bottom:15%;
+        display:grid;
+        grid-template-columns: 40% auto;
+    }
+    #yourportfolioleft{
+        margin-top:auto;
+        margin-bottom:auto;
+    }
+
+    #visualize{
+        padding-left:11%;
+        padding-right:11%;
+        margin-bottom:15%;
+        display:grid;
+        grid-template-columns: 40% auto;
+    }
+    #visualizeleft{
+        padding-right:10%;
+    }
+
+    #productforcast{
+        padding-left:11%;
+        padding-right:11%;
+        margin-bottom:15%;
+        display:grid;
+        grid-template-columns: 40% auto;
+    }
+    #productforcastleft{
+        margin-top:auto;
+        margin-bottom:auto;
+    }
+
+    #outcomes{
+        padding-left:11%;
+        padding-right:11%;
+        padding-bottom:15%;
+    }
+
+    #minicase{
+        padding-left:11%;
+        padding-right:11%;
+        margin-bottom:15%;
+        padding-top:9%;
+    }
+
+    #initialfindings{
+        padding-left:11%;
+        padding-right:11%;
+        margin-bottom:15%;
+        display:grid;
+        grid-template-columns: 47% auto auto;
+    }
+    #initialfindingsline{
+        background-color: #BBBBBB;
+    }
+    .statlarge{
+        font-family: 'Circular Std';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 8vw;
+        margin-top:0%;
+        margin-bottom:3%;
+        text-align: center;
+    }
+    .statmargin{
+        padding-left:10%;
+        padding-right:10%;
+    }
+    #initialfindingsleft{
+        padding-right:5%;
+    }
+    #initialfindingsstat1{
+        margin-top:auto;
+        margin-bottom:auto;
+    }
+    #initialfindingsstat2{
+        margin-top:auto;
+        margin-bottom:auto;
+    }
+
+    #unmetneeds{
+        padding-left:11%;
+        padding-right:11%;
+        margin-bottom:10%;
+        display:grid;
+        grid-template-columns: 50% 50%;
+    }
+    #unmetneedstag{
+        padding-left:11%;
+        padding-right:11%;
+    }
+
+    .blackline{
+        color:#000000;
+        height: 1px;
+        background-color: black;
+        border-color: black;
+        margin-left:11%;
+        margin-right:11%;
+        margin-bottom:10%;
+
+    }
+
+    #finalthoughts{
+        padding-left:11%;
+        padding-right:20%;
+        padding-bottom:10%;
+    }
+
+    #bottombar{
+    
+        display:grid;
+        grid-template-columns: 70% auto;
+    }
+    #bottomlinks{
+        display:grid;
+        grid-template-columns: auto auto auto;
+    }
+    .bottomheathtext{
+        font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.85vw;
+    line-height: 2.31vw;
+    margin-left:2.3%;
+    }
+
+    .sidemargin{
+        padding-left:10%;
+        padding-right:10%;
+        margin-bottom: 4%;
+    }
+    .bottommargin{
+        margin-bottom:10%;
+    }
+
+    

@@ -1,0 +1,539 @@
+<style>
+main{
+    background-color: #F1F1F1;
+}
+a{
+    text-decoration: none;
+}
+#navwhole{
+    display: grid;
+    grid-template-columns: 1.8fr 1fr 1.8fr;
+    background-color: #F1F1F1;
+}
+#leftnav{
+margin-top:1%;
+}
+.navtitle{
+   font-family: 'Circular Std';
+font-style: normal;
+font-weight: 900;
+font-size: 1.85vw;
+line-height: 2.31vw;
+color: #1A1A1A;
+margin-left: 2.3%;
+margin-top:1.4%;
+
+}
+#navmiddle{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+margin-top:5%;
+}
+
+.navunits{
+    font-family: 'roboto-mono', monospace;
+
+font-weight: 400;
+
+font-style: normal;
+font-size: 1.38vw;
+line-height: 1.85vw;
+/* identical to box height */
+text-align: center;
+color: #1A1A1A;
+    margin-left:0.6%;
+    margin-right:0.6%;
+    margin-top:1.4%;
+}
+#navright{
+    display: grid;
+    grid-template-columns: 96% auto;
+    margin-left:0.6%;
+    justify-content:end;
+    margin-right:2.3%;
+    margin-top:3%;
+}
+#navunits2{
+    font-family: 'roboto-mono', monospace;
+
+font-weight: 400;
+
+font-style: normal;
+font-size: 1.38vw;
+line-height: 1.85vw;
+/* identical to box height */
+text-align: right;
+color: #1A1A1A;
+margin-top:0%;
+margin-right:1%;
+}
+#navarrowbox{
+    margin-left:0.2%;
+    margin-top:4%;
+    padding-left:2%;
+    padding-top: 0%;
+    
+}
+.navarrow2{
+    margin-bottom:auto;
+    width:100%;
+    margin-top:5%;
+    
+}
+.underline{
+    text-decoration: underline;
+}
+
+.smallerregp{
+    margin-top:0px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 1.2vw;
+line-height: 1.6vw;
+}
+}
+
+    @media (max-width: 600px){
+        #navwhole{
+            display: inline;
+        }
+        #navmiddle{
+            display: inline;
+        }
+        #leftnav{
+            margin: auto;
+            text-align: center;
+        }
+        #navright{
+            margin:auto;
+            justify-content:center;
+            text-align: center;
+        }
+    }
+
+/*end nav */
+#aboutstart{
+    margin-top:auto;
+    margin-bottom:auto;
+   
+}
+#aboutmain{
+    display: grid;
+    grid-template-columns: 28% auto;
+    padding-bottom:7%;
+    margin-left:13%;
+    margin-right: 13%;
+    margin-top:5%;
+
+}
+#aboutselfie{
+    width: 100%;
+    background-image: url('homeassets/aboutpic2.jpg');;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#aboutwritting{
+    padding-left:3%;
+    padding-right:10%;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+.boldquote{
+    font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 700;
+font-size: 3vw;
+color:#1A1A1A
+}
+.notopmargin{
+    margin-top:0px;
+}
+
+.boldp{
+    font-family: 'Helvetica Neue';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.8vw;
+        line-height: 2.5vw;
+        color: #1A1A1A;
+}
+.smallbottommargin{
+    margin-bottom:20px;
+}
+#aboutwrittingend{
+    display: grid;
+    grid-template-columns: 55% auto;
+    
+}
+#gettinghere{
+    display: grid;
+    grid-template-columns: auto 40%;
+    
+}
+#gettingherearrow{
+    justify-self: start;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+    margin-left:10%;
+}
+#gettingheretext{
+    justify-self:end;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+.underline{
+    text-decoration: underline;
+}
+#heathend{
+    margin-top:auto;
+    margin-bottom:auto;
+}
+
+
+
+#experiencecontainer{
+    background-color: #F1F1F1;
+}
+#experiences{
+padding-top:5%;
+padding-bottom:5%;
+opacity: 0.01;
+
+}
+.white{
+    color: #F1F1F1;
+}
+.eightyleft{
+    padding-left:80px;
+    margin-bottom:70px;
+}
+.tagreg{
+    font-family: 'roboto-mono', monospace;
+
+font-weight: 400;
+
+font-style: normal;
+font-size: 1.85vw;
+line-height: 42px;
+padding-left:4.6%;
+margin-bottom:3%;
+}
+.hrwhite{
+
+    margin-bottom: 0px;
+    border: none;
+    height:2px;
+    border-color: #F1F1F1;
+    background-color:#b1b1b1;
+    
+}
+#experiencesmain{
+    margin-left: 11.8%;
+    margin-right: 11.8%;
+
+}
+#experience1{
+    display:grid;
+    grid-template-columns: 25% 45% 35%;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding-top:2%;
+    padding-bottom:2%;
+}
+#experiencelogo1{
+    margin:auto;
+    padding-left: 15%;
+    
+}
+.regp{
+    margin-top:0px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 1.4vw;
+line-height: 1.8vw;
+}
+#experienceinfo1{
+    padding-left:17%;
+    padding-right:0%;
+    margin:auto;
+}
+.alignmiddle{
+    margin:auto;
+}
+.individuallogo{
+    width:100%;
+}
+.roletitle{
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2vw;
+    line-height: 1.4vw;
+    color: #1A1A1A;
+    margin-bottom: 5px;
+    margin-top:0px;
+}
+.roledate{
+    font-family: 'roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 1.2vw;
+line-height: 1.4vw;
+margin-top:0px;
+margin-bottom:0px;
+color: #1A1A1A;
+}
+#experienceright1{
+    margin-top:auto;
+    margin-bottom:auto;
+    padding-right:15%;
+    padding-left:20%;
+}
+.nobottommargin{
+    margin-bottom:0px;
+}
+
+/* 2*/
+#experience2{
+    display:grid;
+    grid-template-columns: 25% 45% 35%;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding-top:2%;
+    padding-bottom:2%;
+}
+#experiencelogo2{
+    margin:auto;
+    padding-left: 15%;
+    
+}
+#experienceinfo2{
+    padding-left:17%;
+    padding-right:3%;
+    margin:auto;
+}
+#experienceright2{
+    margin-top:auto;
+    margin-bottom:auto;
+    padding-right:15%;
+    padding-left:20%;
+}
+/*3*/
+#experience3{
+    display:grid;
+    grid-template-columns: 25% 45% 35%;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding-top:2%;
+    padding-bottom:2%;
+}
+#experiencelogo3{
+    margin:auto;
+    padding-left: 15%;
+    
+}
+#experienceinfo3{
+    padding-left:17%;
+    padding-right:3%;
+    margin:auto;
+}
+#experienceright3{
+    margin-top:auto;
+    margin-bottom:auto;
+    padding-right:15%;
+    padding-left:20%;
+}
+/*4*/
+#experience4{
+    display:grid;
+    grid-template-columns: 25% 45% 35%;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding-top:2%;
+    padding-bottom:2%;
+}
+#experiencelogo4{
+    margin:auto;
+    padding-left: 15%;
+    
+}
+#experienceinfo4{
+    padding-left:17%;
+    padding-right:3%;
+    margin:auto;
+}
+#experienceright4{
+    margin-top:auto;
+    margin-bottom:auto;
+    padding-right:15%;
+    padding-left:20%;
+}
+
+#experiencelistend{
+    display:grid;
+    grid-template-columns: 86% 15%;
+}
+#resumelink{
+    justify-self: end;
+}
+#resumelinkarrow{
+    justify-self: start;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right:20%;
+    margin-left:10%;
+    
+}
+.arrowscale{
+    width: 100%;
+    padding-right:20%;
+}
+#designphilosophy{
+    padding-top:5%;
+    
+}
+#designphilosophyminis{
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-left: 11.8%;
+    margin-right: 11.8%;
+
+}
+#desinphilosophycontainer{
+    opacity:0.01;
+
+}
+#designphilosophymini1{
+    padding-right: 20%;
+}
+#designphilosophymini2{
+    padding-right: 20%;
+}
+#designphilosophymini3{
+    padding-right: 20%;
+}
+.boldquote2{
+    font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 700;
+font-size: 2.7vw;
+color:#1A1A1A;
+margin-bottom:5%;
+}
+.boldquote3{
+    font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 700;
+font-size: 3vw;
+color:#1A1A1A;
+margin-bottom:2%;
+}
+#puckquote{
+    margin-left: 11.8%;
+    margin-right: 15%;
+    padding-bottom:15%;
+    margin-top:5%;
+}
+.right{
+    text-align: end;
+    margin-top:0px;
+    padding-right:15%;
+}
+
+#funguyandmore{
+    background-color: #1A1A1A;
+    padding-top:10%;
+    padding-bottom:5%;
+    
+}
+#funguyquote{
+    padding-left: 11.8%;
+    padding-right: 11.8%;
+    opacity:0.01;
+}
+#funguyquote{
+    text-align:center;
+    
+}
+
+#notbuildingcontainer{
+    padding-top:5%;
+    padding-bottom:5%;
+    opacity:0.01;
+}
+#notbuildingminis{
+    margin-left: 11.8%;
+    margin-right: 11.8%;
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+
+.h1work{
+    font-family: 'Circular Std';
+font-style: normal;
+font-weight: 900;
+font-size: 8.68vw;
+line-height: 8.8vw;
+margin-bottom: 0px;
+margin-top:0px;
+}
+.letsworkp{
+
+padding-right:30%;
+font-family: 'Helvetica Neue';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.8vw;
+        line-height: 2.5vw;
+        color: #F1F1F1;
+}
+#letswork{
+    padding-top: 15.4%;
+    padding-left: 18.4%;
+    padding-bottom: 5.2%;
+    background-color: #1A1A1A;
+    
+}
+.tagreg2{
+    font-family: 'roboto-mono', monospace;
+
+font-weight: 400;
+
+font-style: normal;
+font-size: 1.85vw;
+line-height: 2.42%;
+margin-bottom:3%;
+}
+
+
+#bottombar{
+    
+    display:grid;
+    grid-template-columns: 70% auto;
+    background-color: #1A1A1A;
+}
+#bottomlinks{
+    display:grid;
+    grid-template-columns: auto auto auto;
+}
+.bottomheathtext{
+    font-family: 'Circular Std';
+font-style: normal;
+font-weight: 900;
+font-size: 1.85vw;
+line-height: 2.31vw;
+margin-left:2.3%;
+}
+
+.polaroids{
+    width:90%;
+    padding-right:10%;
+}
+
+
+
+</style>
